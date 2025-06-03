@@ -1,0 +1,100 @@
+:root {
+  --ff-Abril: 'Abril Fatface', cursive;
+  --ff-Work: 'Work Sans', sans-serif;
+
+  font-family: var(--ff-Work);
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  --bg-primary: hsl(0, 0%, 15%);
+  --bg-secondary: hsla(248, 88%, 57%, 0.5);
+  --bg-secondary-02: hsl(248, 85%, 65%);
+  --bg-secondary-03: hsl(248, 85%, 65%, 0.6);
+  
+  --text-00: #ffffffe4;
+  --text-01: #4b31f2;
+  --text-02: #705cf2;
+  --text-03: #3bbf8f;
+  --text-04: #d96055;
+
+  --text-shadow: 1px 1.2px 0px hsla(0, 0%, 15%, 0.3),
+    1.3px 1.3px 1px hsla(0, 0%, 15%, 0.37), 1.7px 2px 3px hsla(0, 0%, 15%, 0.42);
+
+  --text-white: white;
+
+  --underline-01: var(--neon-03);
+  --underline-active: var(--neon-04);
+
+  --neon-01: #f31ab8;
+  --neon-02: #471758;
+  --neon-03: #65ecda; /* normal */
+  --neon-04: #fb9728; /* active */
+  --neon-05: #e54529;
+
+/* Manejo de sombras  de bloque */
+  --shadow-color: 248deg 88% 57%; /* Editar segun el background */
+
+  --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
+    1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+    5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+
+/* Manejo de sombras */
+  --shadow-color-avatar: 0deg 0% 15%; /* Editar segun el background */
+
+  --shadow-elevation-medium-avatar: 0.3px 0.5px 0.7px
+      hsl(var(--shadow-color-avatar) / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color-avatar) / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color-avatar) / 0.36),
+    5px 10px 12.6px -2.5px hsl(var(--shadow-color-avatar) / 0.36);
+
+/* Gradientes de fondo */
+  --gradient-full: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  
+  --gradient-to-bottom: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  
+  --gradient-to-up: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  margin: 0 auto;
+  min-width: 375px; /* Ver medida para el minimo */
+  min-height: 100vh;
+}

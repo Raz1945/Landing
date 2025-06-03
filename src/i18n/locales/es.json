@@ -1,0 +1,201 @@
+{
+  "hero": {
+    "title": "Hola, soy Gonzalo",
+    "subtitle": "Desarrollador Full Stack",
+    "description": "Creo soluciones web completas desde el concepto hasta la base de datos"
+  },
+
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Construyo soluciones web completas: desde la idea hasta la implementación",
+    "cards": [
+      {
+        "icon": "🚀",
+        "title": "Desarrollo Frontend",
+        "description": "React, SPAs, PWAs y diseños responsivos que se adaptan perfectamente a cualquier dispositivo"
+      },
+      {
+        "icon": "🔧",
+        "title": "Backend y APIs",
+        "description": "Node.js, Express, bases de datos SQL/NoSQL. Arquitecturas escalables y mantenibles"
+      },
+      {
+        "icon": "⚡",
+        "title": "Optimización",
+        "description": "Mejora de rendimiento, SEO técnico y accesibilidad para llegar a más usuarios"
+      },
+      {
+        "icon": "🌎",
+        "title": "Localización",
+        "description": "Adaptación cultural y lingüística para audiencias hispanohablantes"
+      },
+      {
+        "icon": "🔒",
+        "title": "Seguridad",
+        "description": "Autenticación JWT, protección de datos e implementación de buenas prácticas"
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "viewDemo": "Ver Demo",
+    "viewCode": "Ver Código",
+    "items": [
+      {
+        "imgKey": "project_0",
+        "alt": "Proyecto Testimonials grid section",
+        "title": "Testimonials grid section",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "Este desafío es una excelente oportunidad para aquellos que buscan perfeccionar sus habilidades con CSS Grid.",
+        "linkTo": "https://raz1945.github.io/Testimonials.github.io/",
+        "linkToCode": "https://github.com/Raz1945/Testimonials.github.io"
+      },
+      {
+        "imgKey": "project_1",
+        "alt": "Proyecto Interactive card",
+        "title": "Interactive card",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "Este proyecto es ideal para practicar manipulación del DOM y validación de formularios, además de poner a prueba mis habilidades de HTML y CSS.",
+        "linkTo": "https://raz1945.github.io/Interactive-card.github.io/",
+        "linkToCode": "https://github.com/Raz1945/Interactive-card.github.io"
+      },
+      {
+        "imgKey": "project_2",
+        "alt": "Proyecto FyloPage",
+        "title": "Fylo Page",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "'Fylo Dark Theme Landing Page'. Es otro desafío de Frontend Mentor con algunas modificaciones. Es el campo de entrenamiento perfecto para practicar habilidades con Flexbox y/o Grid.",
+        "linkTo": "https://fylo-page-vercel-app.vercel.app/",
+        "linkToCode": "https://github.com/Raz1945/FyloPage.vercel.app"
+      },
+      {
+        "imgKey": "project_3",
+        "alt": "Proyecto WebSenpai",
+        "title": "Senpai Page",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "WebSenpai es un proyecto que sirve como campo de pruebas para perfeccionar mis habilidades en manipulación del DOM, validación de formularios y poner a prueba mi experiencia en HTML y CSS. Proporciona un entorno ideal para refinar mi dominio de diseños con Flexbox y/o Grid.",
+        "linkTo": "https://raz1945.github.io/websenpai.github.io/",
+        "linkToCode": "https://github.com/Raz1945/websenpai.github.io"
+      },
+      {
+        "imgKey": "project_4",
+        "alt": "Proyecto TodoApp",
+        "title": "To Do App",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "En este proyecto puedes utilizar el poder de React, incorporando hooks y el patrón Reducer. Tienes la capacidad de: Añadir nuevas tareas a la lista. Marcar tareas como completadas. Eliminar tareas de la lista. Filtrar tareas según su estado (todas, activas, completadas). Limpiar todas las tareas completadas. Cambiar sin problemas entre modos claro y oscuro. Como bonus, se ha utilizado el patrón Reducer para gestionar eficientemente el estado de la aplicación.",
+        "linkTo": "https://to-do-app-ashy-eight.vercel.app/",
+        "linkToCode": "https://github.com/Raz1945/ToDo-App"
+      },
+      {
+        "imgKey": "project_5",
+        "alt": "Proyecto PokeApp",
+        "title": "Pokedex",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "PokeApp es un emocionante proyecto de colaboración en el que trabajé con un colega. Utilizamos Scrum (Kanban) para gestionar las tareas durante un período de dos semanas. La aplicación web, desarrollada con React y React Router, se conecta a una API para proporcionar a los usuarios una experiencia inmersiva de exploración del mundo Pokémon. Para gestionar el estado de la aplicación y los efectos secundarios, utilizamos hooks de React como useState y useEffect. Es importante señalar que el proyecto aún no está terminado, y estamos trabajando activamente en su finalización.",
+        "linkTo": "https://pokeapp-lyart.vercel.app/",
+        "linkToCode": "https://github.com/Raz1945/pokeapp"
+      },
+      {
+        "imgKey": "project_6",
+        "alt": "Proyecto Audn",
+        "title": "Audn",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "Este proyecto, aún en etapa de desarrollo, representa una combinación de tecnologías que incluye un backend construido con Node.js y una base de datos gestionada a través de PostgreSQL. Esta base de datos se conecta de forma remota a un servicio online llamado Neon, un PostgreSQL Serverless. Además, el frontend de la aplicación ha sido diseñado usando React. En esencia, es una aplicación de música con funcionalidades similares a las que se encuentran en plataformas como Spotify.",
+        "linkTo": "#",
+        "linkToCode": "https://github.com/Raz1945/Auden-Backend"
+      },
+      {
+        "imgKey": "project_7",
+        "alt": "Next Universe",
+        "title": "Next Universe",
+        "title_description": "Titulo de la tarjeta: ",
+        "description": "Este proyecto, aún en etapa de desarrollo, representa una combinación de tecnologías que incluye un backend construido con Node.js y una base de datos gestionada a través de MongoDB. Además, cuenta con un frontend desarrollado en React. El proyecto gira en torno a crear una experiencia similar a un juego llamado OGame.",
+        "linkTo": "#",
+        "linkToCode": "https://github.com/Raz1945/nextUniverse"
+      }
+    ]
+  },
+
+  "about": {
+    "title": "Presentación",
+    "heading": "Gonzalo Sánchez",
+    "subheading": "Desarrollador Full Stack apasionado.",
+    "presentation": "Mi enfoque principal es el desarrollo web, utilizando HTML, CSS y JavaScript (con énfasis en React) para el frontend, y Python y Node.js para el backend. Tengo experiencia en el manejo de bases de datos como MongoDB, MySQL y PostgreSQL, así como en TypeScript y Redux para aplicaciones React. Soy un aprendiz autodidacta dedicado con una base sólida gracias al bootcamp de Senpai Academy, donde perfeccioné mis habilidades técnicas y de trabajo en equipo. Competente en metodologías ágiles (Scrum/Kanban) y herramientas como Git, Jira, Postman y Jest. Siempre busco nuevos desafíos para crecer. Tengo un nivel de inglés B2 para colaboración internacional.",
+    "file": "Archivo",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "MongoDB",
+      "VisualBasic"
+    ],
+    "education": [
+      {
+        "academy": "Senpai Academy",
+        "dir": "Montevideo, Uruguay",
+        "course": "Desarrollador Web Full Stack",
+        "date": "Febrero 2023 - Agosto 2023",
+        "workload": "420 horas",
+        "knowledge": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Knex",
+          "APIs REST",
+          "Jest",
+          "Git"
+        ],
+        "otherKnowledge": ["Metodologías Ágiles (SCRUM)"]
+      },
+      {
+        "academy": "Udemy",
+        "course": "Python sin fronteras: HTML, CSS, Flask y MySQL",
+        "date": "Diciembre 2022",
+        "workload": "25 horas",
+        "knowledge": [
+          "HTML",
+          "CSS",
+          "Python",
+          "Flask",
+          "MySQL",
+          "TKInter",
+          "APIs REST"
+        ]
+      },
+      {
+        "academy": "freeCodeCamp.org",
+        "course": "Diseño Web Responsivo",
+        "date": "Julio 2022 - Octubre 2022",
+        "workload": "300 horas",
+        "knowledge": ["HTML", "CSS"]
+      },
+      {
+        "academy": "Coursera.org",
+        "dir": "Universidad de Michigan",
+        "course": "Estructuras de Datos en Python",
+        "date": "Julio 2022 - Agosto 2022",
+        "workload": "19 horas",
+        "knowledge": ["Python"]
+      },
+      {
+        "academy": "Coursera.org",
+        "dir": "Universidad de Michigan",
+        "course": "Programación para Todos",
+        "date": "Julio 2022",
+        "workload": "19 horas",
+        "knowledge": ["Python"]
+      }
+    ]
+  }
+}

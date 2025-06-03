@@ -1,0 +1,138 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  max-width: 1200px;
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.about__text-wrapper {
+  display: contents;
+}
+
+.about__heading-title {
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin: 0;
+  background: linear-gradient(90deg, #fb9728, #ff6b6b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+.about__heading-name {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.about__heading-dev {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
+.about__presentation {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.about__subcontent {
+  display: grid;
+  grid-template-columns: 2.5fr 9.5fr;
+  grid-auto-rows: minmax(max-content, auto);
+  grid-template-areas:
+    'contact education'
+    'technologies education';
+  gap: 1.5rem;
+}
+
+.about__contact {
+  grid-area: contact;
+  height: max-content;
+}
+
+.about__contact-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.7em;
+  list-style: none;
+}
+
+.about__contact-icon {
+  display: flex;
+  align-items: center;
+  color: #ff6b6b;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  will-change: auto;
+}
+
+.about__contact-icon.map:hover {
+  font-weight: 500;
+  color: mediumslateblue;
+}
+.about__contact-icon.linkedin:hover {
+  font-weight: 500;
+  color: #0e76a8;
+}
+.about__contact-icon.github:hover {
+  font-weight: 500;
+  color: #171515;
+}
+.about__contact-icon.download:hover {
+  font-weight: 500;
+  color: #daa520;
+}
+
+.about__contact-text {
+  margin-left: 0.25rem;
+}
+
+.about__technologies-container {
+  grid-area: technologies;
+  height: max-content;
+}
+
+
+.about__technologies-title {
+
+}
+.about__technologies-list {
+  list-style: none;
+}
+
+.about__technologies {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.875em;
+  margin-bottom: 0.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  /* color: var(--text-00); */
+}
+
+
+.about__education-container {
+  background-color: #252525;
+  grid-area: education;
+  height: max-content;
+}
