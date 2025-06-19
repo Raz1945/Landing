@@ -3,13 +3,7 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  
-  background: radial-gradient(
-    ellipse at bottom,
-    hsla(155, 41%, 16%, 0.99) 0%,
-    hsla(155, 40%, 10%, 1) 50%,
-    hsla(0, 0%, 4%, 1) 100%
-  );
+  background: var(--bg-hero)
 }
 
 .hero__content {
@@ -18,11 +12,10 @@
     'title image'
     'subtitle image';
   grid-template-columns: 1.5fr 1fr;
-  gap: 1.5rem;
   align-items: center;
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto; /* Margen comun a todas las secciones */
+  margin: 0 auto; /* *Margen comun a todas las secciones */
 }
 
 .hero__text-wrapper {
@@ -31,31 +24,35 @@
 
 .hero__text-wrapper h1 {
   grid-area: title;
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  line-height: 1.2;
-  margin: 0;
-  
-  color: var(--ff-color-03);
-  text-shadow: var(--text-shadow-01);
+  font-size: clamp(2.5rem, 4.5vw, 3.2rem);
+  font-family: var(--ff-pp);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: var(--color-text);
+  text-shadow: var(--text-shadow-black);
 }
 
 .hero__role {
   display: block;
-  font-weight: 600;
-  font-size: clamp(1.8rem, 4.5vw, 3.2rem);
-  padding-top: 0.5rem;
-  color: var(--ff-color-04);
-  text-shadow: var(--text-shadow-02);
+  font-family: var(--ff-pp);
+  font-size: clamp(2rem, 4.2vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-top: 1rem;
+  color: var(--color-gold-soft);
+  text-shadow: var(--text-shadow-black);
 }
 
 .hero__text-wrapper h2 {
   grid-area: subtitle;
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 400;
-  color: var(--ff-color-05);
-  text-shadow: var(--text-shadow-01);
-  margin: 0.5rem 0 0;
-  opacity: 0.9;
+  padding-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  opacity: 0.8;
+  color: var(--color-jade);
+  text-shadow: var(--text-shadow-black);
 }
 
 .hero__picture {
@@ -77,18 +74,7 @@
   transition: all 0.5s ease;
   border: 3px solid transparent;
   border-radius: 50%;
-  background: linear-gradient(hsla(0, 0%, 10%, 0.8), hsla(0, 0%, 10%, 0.8))
-      padding-box,
-    /* Borde animado */
-      linear-gradient(
-        135deg,
-        var(--color-01),
-        var(--color-02),
-        var(--color-03),
-        var(--color-02)
-      )
-      border-box;
-
+  background: var(--bg-hero-picture);
   background-size: 300% 300%;
   animation: rotateBorder 8s linear infinite;
   padding: 3px;

@@ -19,9 +19,10 @@ export const App = () => {
         {/* <Navbar /> */}
         <Wrapper>
           <Hero route='hero' />
-          <Services route='services' />
-          <Projects route='projects' />
-          <About route='about_me' />
+
+          {/* <Services route='services' /> */}
+          {/* <Projects route='projects' /> */}
+          {/* <About route='about_me' /> */}
         </Wrapper>
       </Suspense>
     </I18nextProvider>
