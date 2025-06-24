@@ -1,108 +1,85 @@
+/* ════════════════════════════════════════
+   VARIABLES GLOBALES
+═══════════════════════════════════════════ */
 :root {
-  --ff-pp: "Ubuntu", sans-serif;
+  /* ─── Tipografías ───────────────────── */
+  --ff-pp: 'Ubuntu', sans-serif;
   --ff-sc: 'Work Sans', sans-serif;
 
-  font-family: var(--ff-sc);
-  font-size: 1rem;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  line-height: 1.2;
-
-
-
-
-/* Night */
-  --color-bg-01: #121212;
-  --color-bg-alt-01: #1e1e1e;
-
-  --color-text-01: #f4f4f4e4;
-  --color-text-11: #f8f9fa;
-  --color-text-secondary-01: #a8a8a8;
-
-  --color-border-01: #2a2a2a;
-
-
-
-/* Text */
-  --color-text: var(--color-text-01);
-  --text-shadow: var(--text-shadow);
-
-  --color-text-secondary: var(--color-text-secondary-01);
-  --text-shadow-secondary: var(--text-shadow-secondary);  
-
-  --color-text-alt: var(--color-text-02);
-
-  --text-shadow: 
-    1px 1.2px 0px hsla(0, 0%, 100%, 0.08),
-    1.3px 1.3px 1px hsla(0, 0%, 90%, 0.1),
-    1.7px 2px 3px hsla(0, 0%, 70%, 0.15);
-
-  --text-shadow-secondary: 
-    1px 1.2px 0px hsla(0, 0%, 60%, 0.05),
-    1.3px 1.3px 1px hsla(0, 0%, 50%, 0.07),
-    1.7px 2px 2px hsla(0, 0%, 40%, 0.08);
-
-  --text-shadow-black:
-    1px 1px 1px rgba(0, 0, 0, 0.3),
-    2px 2px 2px rgba(0, 0, 0, 0.15);
-
-
-
-/* Colores y sombras */
-/* Jade */
+  /* ─── Colores Base ──────────────────── */
   --color-jade: #00b894;
-  --text-shadow-jade:
-    0.6px 0.6px 0px hsla(164, 60%, 30%, 0.2),
-    1px 1px 1px hsla(164, 50%, 40%, 0.3),
-    1.3px 1.5px 2px hsla(164, 45%, 50%, 0.25);
-
-/* Red */
   --color-red: #ff6b6b;
-  --text-shadow-red:
-    0.6px 0.6px 0px hsla(0, 85%, 50%, 0.2),
-    1px 1px 1px hsla(0, 75%, 60%, 0.3),
-    1.3px 1.5px 2px hsla(0, 65%, 70%, 0.25);
-
-/* Yellow */
   --color-yellow: #ffd166;
-  --text-shadow-yellow: 
-    0.6px 0.6px 0px hsla(42, 90%, 50%, 0.15),
-    1px 1px 1px hsla(42, 80%, 60%, 0.25),
-    1.3px 1.5px 2px hsla(42, 70%, 70%, 0.2);
-
-/* Gold */
-  --color-gold: #E6C200; 
-  --color-gold-soft: #D4AF37;
-  --text-shadow-gold:
-    0.5px 0.7px 0px hsla(45, 100%, 40%, 0.3),
-    1px 1px 1px hsla(45, 95%, 30%, 0.4),
-    1.5px 1.7px 2px hsla(45, 85%, 20%, 0.25);
-
-/* Pink */
+  --color-gold: #e6c200;
+  --color-gris: #f5f5f5;
+  --color-gold-soft: #d4af37;
   --color-pink: #edafb8;
   --color-pink-soft: #f7e1d7;
 
+  /* ─── Modo Oscuro ───────────────────── */
+  --color-bg-01: #121212;
+  --color-bg-alt-01: #1e1e1e;
+  --color-text-01: #f4f4f4e4;
+  --color-text-11: #f8f9fa;
+  --color-text-secondary-01: #a8a8a8;
+  --color-border-01: #2a2a2a;
 
+  /* ─── Modo Claro ────────────────────── */
+  --color-bg-02: #ffffff;
+  --color-bg-alt-02: #f5f5f5;
+  --color-text-02: #1c1c1c;
+  --color-text-secondary-02: #6e6e6e;
+  --color-border-02: #dadada;
 
-/* Sombras  */
-  --shadow-color: 210deg 10% 20%; /* gris azulado muy oscuro, va bien sobre fondos oscuros */
+  /* ─── Alias dinámicos según modo ───── */
+  --color-bg: var(--color-bg-01);
+  --color-bg-alt: var(--color-bg-alt-02);
+  --color-text: var(--color-text-01);
+  --color-text-secondary: var(--color-text-secondary-01);
+  --color-text-alt: var(--color-text-02);
 
-  --shadow-elevation-low: 
-    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.2),
+  /* ─── Text Shadows ──────────────────── */
+  --text-shadow: 1px 1.2px 0px hsla(0, 0%, 100%, 0.08),
+    1.3px 1.3px 1px hsla(0, 0%, 90%, 0.1), 1.7px 2px 3px hsla(0, 0%, 70%, 0.15);
+
+  --text-shadow-secondary: 1px 1.2px 0px hsla(0, 0%, 60%, 0.05),
+    1.3px 1.3px 1px hsla(0, 0%, 50%, 0.07), 1.7px 2px 2px hsla(0, 0%, 40%, 0.08);
+
+  --text-shadow-black: 1px 1px 1px rgba(0, 0, 0, 0.3),
+    2px 2px 2px rgba(0, 0, 0, 0.15);
+
+  --text-shadow-jade: 0.6px 0.6px 0px hsla(164, 60%, 30%, 0.2),
+    1px 1px 1px hsla(164, 50%, 40%, 0.3),
+    1.3px 1.5px 2px hsla(164, 45%, 50%, 0.25);
+
+  --text-shadow-red: 0.6px 0.6px 0px hsla(0, 85%, 50%, 0.2),
+    1px 1px 1px hsla(0, 75%, 60%, 0.3), 1.3px 1.5px 2px hsla(0, 65%, 70%, 0.25);
+
+  --text-shadow-yellow: 0.6px 0.6px 0px hsla(42, 90%, 50%, 0.15),
+    1px 1px 1px hsla(42, 80%, 60%, 0.25),
+    1.3px 1.5px 2px hsla(42, 70%, 70%, 0.2);
+
+  --text-shadow-gold: 0.5px 0.7px 0px hsla(45, 100%, 40%, 0.3),
+    1px 1px 1px hsla(45, 95%, 30%, 0.4),
+    1.5px 1.7px 2px hsla(45, 85%, 20%, 0.25);
+
+  --text-shadow-L: 0.8px 0.9px 0px hsla(0, 0%, 0%, 0.15),
+    1.2px 1.2px 1px hsla(0, 0%, 0%, 0.18), 1.5px 1.7px 2px hsla(0, 0%, 0%, 0.2);
+
+  --text-shadow-secondary-L: 0.6px 0.7px 0px hsla(0, 0%, 30%, 0.12),
+    1px 1px 1px hsla(0, 0%, 30%, 0.15), 1.4px 1.6px 2px hsla(0, 0%, 30%, 0.17);
+
+  /* ─── Sombras de bloques ───────────── */
+  --shadow-color: 210deg 10% 20%;
+
+  --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.2),
     0.6px 1px 1.4px hsl(var(--shadow-color) / 0.15);
 
-  --shadow-elevation-medium: 
-    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.25),
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.25),
     1px 2px 3px -0.5px hsl(var(--shadow-color) / 0.2),
     3px 5px 8px -1px hsl(var(--shadow-color) / 0.15);
 
-
-
-/* Background */
-  --color-bg: var(--color-bg-01);
-  --color-bg-alt: var(--color-bg-02);
-
-  /* Hero */
+  /* ─── Hero ─────────────────────────── */
   --bg-hero: radial-gradient(
     ellipse at bottom,
     hsla(155, 41%, 16%, 0.99) 0%,
@@ -110,15 +87,12 @@
     hsla(0, 0%, 4%, 1) 100%
   );
 
-
-  --bg-hero-picture:
-    /* Borde separador */ linear-gradient(
+  --bg-hero-picture: linear-gradient(
         hsla(0, 0%, 4%, 0.8),
         hsla(0, 0%, 10%, 0.8)
       )
       padding-box,
-    /* Borde animado */
-      linear-gradient(
+    linear-gradient(
         135deg,
         var(--color-jade),
         var(--color-yellow),
@@ -129,30 +103,39 @@
       )
       border-box;
 
+  /* ─── Services */
+  --bg-services-01: radial-gradient(circle at center, #ffffff 15%, #f5f5f5);
 
+  --color-text-services--01: #1c1c1c;
+  --shadow-color-text--services--01: 1px 1px 1px rgba(0, 184, 148, 0.3),
+    2px 2px 2px rgba(200, 200, 200, 0.15);
 
-/* Navbar */
-  --bg-navbar-00: rgb(18, 18, 18, 0.7); 
-  --bg-navbar-01: rgba(18, 18, 18, 0.8); 
+  --color-text-title-services--00: linear-gradient(90deg, #fb9728, #ff6b6b);
+  --color-text-title-services--01: linear-gradient(90deg, #00b890, #e6e6e6);
+  --color-text-title-services--02: linear-gradient(
+    140deg,
+    #00b890 15%,
+    #e6c200 100%
+  );
+
+  /* ─── */
+  /* ─── Navbar ───────────────────────── */
+  --bg-navbar-00: rgba(18, 18, 18, 0.7);
+  --bg-navbar-01: rgba(18, 18, 18, 0.8);
   --bg-navbar-02: rgba(20, 20, 20, 0.95);
 
+  /* ─── Swicher ──────────────────────── */
+  --bg-swicher-01: var(--swicher-01);
 
-/* Swicher */
---swicher : var(--swicher-01);
-
---swicher-01: linear-gradient(135deg, #e6c200 0%, #D4AF37  100%);
---swicher-02: linear-gradient(135deg, #ff6b6b 0%, #D4AF37  100%);
---swicher-03: linear-gradient(135deg, #00b894 0%, #D4AF37  100%);
---swicher-04: linear-gradient(135deg, #fb9728 0%, #f8b050  100%);
-
-/* Otros */
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --swicher-01: linear-gradient(135deg, #e6c200 0%, #d4af37 100%);
+  --swicher-02: linear-gradient(135deg, #ff6b6b 0%, #d4af37 100%);
+  --swicher-03: radial-gradient(circle at center, #00b894 25%, #d4af37 100%);
+  --swicher-04: linear-gradient(135deg, #fb9728 0%, #f8b050 100%);
 }
 
+/* ════════════════════════════════════════
+   ESTILOS BASE
+═══════════════════════════════════════════ */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -164,7 +147,18 @@ html {
 }
 
 body {
+  font-family: var(--ff-sc);
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 1.2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
   margin: 0 auto;
-  min-width: 375px; /*todo  Ver medida para el minimo */
+  min-width: 375px;
   min-height: 100vh;
 }

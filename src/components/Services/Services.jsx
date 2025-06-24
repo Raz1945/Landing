@@ -53,8 +53,8 @@ export const Services = ({ route }) => {
               key={index}
               ref={el => listItemsRef.current[index] = el}
             >
-              <strong>{card.icon} {card.title}</strong>
-              <p>{card.description}</p>
+              <p className='services__list-title'>{card.icon} {card.title}</p>
+              <p className='services__list-description'>{card.description}</p>
             </li>
           ))}
         </ul>
