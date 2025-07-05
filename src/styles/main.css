@@ -125,22 +125,49 @@
 
 
   /* ─── Projects */
+  --bg-services-01: radial-gradient(circle at center, #ffffff 15%, #f5f5f5);
+
+  --bg-projects-00:  radial-gradient( ellipse at top, hsla(0, 0%, 13%, 0.95) 0%, hsla(0, 0%, 7%, 1) 100%);
+
   --bg-projects-01:  radial-gradient( ellipse at bottom, hsla(0, 0%, 13%, 0.95) 0%, hsla(0, 0%, 7%, 1) 100%);
-  
-  --shadow-color-text--projects--00:
-  1px 1px 1px rgba(255, 105, 97, 0.25),   
-  2px 2px 2px rgba(255, 150, 80, 0.15);
+
+  --bg-projects-02: linear-gradient(
+  to bottom,
+  hsla(0, 0%, 13%, 0.95) 0%,
+  hsla(0, 0%, 7%, 1) 100%
+);
 
 
-  --color-text-title-projects--00: linear-gradient(140deg, #fb9728 15%, #ff6b6b 100%);
-  --color-text-title-projects--01: linear-gradient(90deg, #fb9728 15%, #ff6b6b 100%);
-  --color-text-title-projects--02: linear-gradient(140deg, #ffd166 15%, #e6c200 100%);
+--color-text-title-projects--00: linear-gradient(180deg, hsl(169, 77%, 73%) 5%, hsl(156, 89%, 21%) 100%);
+--color-text-title-projects--01: linear-gradient(90deg, #fb9728 15%, #ff6b6b 100%);
+--color-text-title-projects--02: linear-gradient(140deg, #ffd166 15%, #e6c200 100%);
+
+--shadow-color-text--projects--00: 1px 1px 1px rgba(0, 184, 148, 0.3), 2px 2px 2px rgba(0, 185, 155, 0.1); 
+--shadow-color-text--projects--01: 1px 1px 1px rgba(255, 105, 97, 0.25), 2px 2px 2px rgba(255, 150, 80, 0.15);
 
 
-  --scroll-color-00:  hsl(32, 96%, 57%, 0.6);
-  --scroll-color-00:  rgba(255, 105, 97, 0.25);
+--color-card-title-projects--00 : var(--color-jade);
+--text-shadow-card-projects-00 : var(--text-shadow-black);
 
-  --scroll-color-01: var(var(--color-jade))
+--color-projects-border-exterior-00: var(--color-jade);
+--color-projects-border-exterior-00: hsl(156, 89%, 21%);
+--color-projects-border-interior-00: var(--color-jade);
+--color-projects-border-interior-00: hsl(156, 89%, 21%);
+
+
+--color-projects-border-00: var(--color-jade);
+--color-projects-border-01: var(--color-red);
+
+
+--scroll-color-00: hsl(156, 89%, 21%, 0.5);
+--scroll-color-01:  rgba(255, 105, 97, 0.25);
+--scroll-color-02:  hsl(32, 96%, 57%, 0.6);
+
+--color-projects-card-shadow-00: #034d3e;
+--color-projects-card-shadow-01:#ff6b6bb7;
+
+--color-gold-soft: #d4af37;
+
 
   /* ─── */
   /* ─── Navbar ───────────────────────── */

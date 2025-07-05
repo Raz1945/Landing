@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  background: var(--bg-projects-01);
+  background: var(--bg-projects-00);
   box-sizing: border-box;
 }
 
@@ -102,7 +102,7 @@
 /* Se encarga de el agrandar la tarjeta */
 .project__card:hover {
   transform: scale(1.112);
-  border: 1px solid var(--color-red);
+  border: 1px solid var(--color-projects-border-exterior-00);
   transition-duration: 0.25s;
 }
 
@@ -123,7 +123,7 @@
 .project__title {
   display: block;
   color: var(--color-text);
-  text-shadow: var(--text-shadow-secondary);
+  text-shadow: var(--text-shadow-card-projects-00);
   font-family: var(--ff-pp);
   font-size: .9em;
   font-weight: 300;
@@ -149,11 +149,11 @@
   border-bottom-right-radius: 1rem;
   padding-left: 1.2rem;
   z-index: -1;
-  background: var(--color-text-title-projects--01);
+  background: var(--color-card-title-projects--00);
   transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .project__title::before {
-  background: var(--color-text-title-projects--01);
+  background: var(--color-card-title-projects--00);
   opacity: 0.4;
 }
 .project__title::after {
@@ -166,13 +166,11 @@
 /* Descripción del proyecto */
 /* Aqui esta el problema de carga */
 .project__subcontent {
-  
   bottom:0;
   left: calc(var(--padding) * -1);
-  /* height: 110px; */
   height: 50%;
   width: calc(100% + var(--padding));
-  border-top: 1px solid var(--color-red);
+  border-top: 1px solid var(--color-projects-border-interior-00);
   background-color: hsl(0, 0%, 10%, 0.98);
   border-bottom-left-radius: .91rem;
   border-bottom-right-radius:.91rem;
@@ -230,7 +228,7 @@
   display: inline-flex;
   align-items: center;
   margin-block: 0.5rem;
-  color: var(--color-red);
+  color: var(--color-gold-soft);
   padding-right: 1rem;
 
   text-decoration: inherit;
@@ -252,12 +250,11 @@
 
 
 .projects__list-item:hover .project__card:hover {
-  box-shadow: 0 0 1px .5px #ff6b6bb7;
+  box-shadow: 0 0 1px .5px var(--color-projects-card-shadow-00);
 }
 
-/* Animaciones de hover */
 .project__card:hover .project__overlay {
-  /* background-image: var(--gradient-to-up); */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
 }
 
 .project__card:hover .project__subcontent {

@@ -22,7 +22,7 @@ export const App = () => {
           <Services route='services' />
 
           <Projects route='projects' />
-          {/* <About route='about_me' /> */}
+          <About route='about_me' />
         </Wrapper>
       </Suspense>
     </I18nextProvider>
