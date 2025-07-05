@@ -21,7 +21,7 @@ export const App = () => {
           <Hero route='hero' />
           <Services route='services' />
 
-          {/* <Projects route='projects' /> */}
+          <Projects route='projects' />
           {/* <About route='about_me' /> */}
         </Wrapper>
       </Suspense>

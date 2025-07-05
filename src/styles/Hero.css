@@ -13,8 +13,9 @@
     'subtitle image';
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
-  width: 90%;
+
   max-width: 1200px;
+  width: 90%;
   margin: 0 auto; /* *Margen comun a todas las secciones */
 }
 
