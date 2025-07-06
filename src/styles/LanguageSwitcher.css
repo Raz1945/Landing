@@ -8,7 +8,7 @@
   padding: 0.5rem 0.7rem;
   
   border-radius: 9999px;
-  /* background-color: var(--bg-switcher-00); */
+  background-color: var(--bg-swicher-00);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: 
@@ -21,7 +21,7 @@
 
 /* todo ver colores de fondo  */
 .language-switcher:hover {
-  /* box-shadow: var(--shadow-elevation-medium); */
+  box-shadow: var(--shadow-elevation-medium);
   background-color: var(--bg-switcher-hover);
   opacity: 1;
   transition-duration: 0.12s;
@@ -106,7 +106,7 @@
 
 .language-btn.active,
 .language-btn:disabled {
-  background:var(--bg-swicher-01);
+  background:var(--bg-swicher-btn);
   font-size: 11px;
   font-weight: 600;
   color: rgb(30, 30, 30);

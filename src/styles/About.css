@@ -26,7 +26,7 @@
   font-size: 2.8rem;
   line-height: 1.2;
   margin: 0;
-  background: linear-gradient(90deg, #fb9728, #ff6b6b);
+  background: var(--color-text-title-about--01);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -37,6 +37,8 @@
   font-size: 2.2rem;
   line-height: 1.4;
   margin: 0;
+  /* opacity: 0.9; */
+  color: var(--color-text);
 }
 
 .about__heading-dev {
@@ -44,13 +46,17 @@
   font-weight: 300;
   margin: 0.5rem 0;
   opacity: 0.9;
+  color: var(--color-text-secondary);
+  color: var(--color-gold-soft);
+
 }
 
 .about__presentation {
   font-size: 0.9rem;
   font-weight: 400;
+  color: var(--color-text);
   opacity: 0.9;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .about__subcontent {
@@ -79,7 +85,7 @@
 .about__contact-icon {
   display: flex;
   align-items: center;
-  color: #ff6b6b;
+  color: var(--color-jade);
   text-decoration: none;
   transition: 0.3s ease-in-out;
   will-change: auto;
@@ -87,7 +93,7 @@
 
 .about__contact-icon.map:hover {
   font-weight: 500;
-  color: mediumslateblue;
+  color: var(--color-gold-soft);
 }
 .about__contact-icon.linkedin:hover {
   font-weight: 500;
@@ -95,11 +101,11 @@
 }
 .about__contact-icon.github:hover {
   font-weight: 500;
-  color: #171515;
+  color: var(--color-gold-soft);
 }
 .about__contact-icon.download:hover {
   font-weight: 500;
-  color: #daa520;
+  color: var(--color-gold-soft);
 }
 
 .about__contact-text {

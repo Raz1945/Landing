@@ -39,7 +39,6 @@
   --color-text-secondary: var(--color-text-secondary-01);
   --color-text-alt: var(--color-text-02);
 
-
   /* ─── Text Shadows ──────────────────── */
   --text-shadow: 1px 1.2px 0px hsla(0, 0%, 100%, 0.08),
     1.3px 1.3px 1px hsla(0, 0%, 90%, 0.1), 1.7px 2px 3px hsla(0, 0%, 70%, 0.15);
@@ -81,8 +80,6 @@
     1px 2px 3px -0.5px hsl(var(--shadow-color) / 0.2),
     3px 5px 8px -1px hsl(var(--shadow-color) / 0.15);
 
-
-
   /* ─── Hero ─────────────────────────── */
   --bg-hero: radial-gradient(
     ellipse at bottom,
@@ -109,8 +106,6 @@
 
   --color-text-title-hero--00: linear-gradient(140deg, #d4af37, #e6c200);
 
-
-
   /* ─── Services */
   --bg-services-01: radial-gradient(circle at center, #ffffff 15%, #f5f5f5);
 
@@ -120,54 +115,73 @@
 
   --color-text-title-services--00: linear-gradient(90deg, #fb9728, #ff6b6b);
   --color-text-title-services--01: linear-gradient(90deg, #00b890, #e6e6e6);
-  --color-text-title-services--02: linear-gradient(140deg, #00b890 15%, #e6c200 100%);
-
-
+  --color-text-title-services--02: linear-gradient(
+    140deg,
+    #00b890 15%,
+    #e6c200 100%
+  );
 
   /* ─── Projects */
   --bg-services-01: radial-gradient(circle at center, #ffffff 15%, #f5f5f5);
 
-  --bg-projects-00:  radial-gradient( ellipse at top, hsla(0, 0%, 13%, 0.95) 0%, hsla(0, 0%, 7%, 1) 100%);
+  --bg-projects-00: radial-gradient(
+    ellipse at top,
+    hsla(0, 0%, 13%, 0.95) 0%,
+    hsla(0, 0%, 7%, 1) 100%
+  );
 
-  --bg-projects-01:  radial-gradient( ellipse at bottom, hsla(0, 0%, 13%, 0.95) 0%, hsla(0, 0%, 7%, 1) 100%);
+  --bg-projects-01: radial-gradient(
+    ellipse at bottom,
+    hsla(0, 0%, 13%, 0.95) 0%,
+    hsla(0, 0%, 7%, 1) 100%
+  );
 
   --bg-projects-02: linear-gradient(
-  to bottom,
-  hsla(0, 0%, 13%, 0.95) 0%,
-  hsla(0, 0%, 7%, 1) 100%
-);
+    to bottom,
+    hsla(0, 0%, 13%, 0.95) 0%,
+    hsla(0, 0%, 7%, 1) 100%
+  );
 
+  --color-text-title-projects--00: linear-gradient(
+    180deg,
+    hsl(169, 77%, 73%) 5%,
+    hsl(156, 89%, 21%) 100%
+  );
+  --color-text-title-projects--01: linear-gradient(
+    90deg,
+    #fb9728 15%,
+    #ff6b6b 100%
+  );
+  --color-text-title-projects--02: linear-gradient(
+    140deg,
+    #ffd166 15%,
+    #e6c200 100%
+  );
 
---color-text-title-projects--00: linear-gradient(180deg, hsl(169, 77%, 73%) 5%, hsl(156, 89%, 21%) 100%);
---color-text-title-projects--01: linear-gradient(90deg, #fb9728 15%, #ff6b6b 100%);
---color-text-title-projects--02: linear-gradient(140deg, #ffd166 15%, #e6c200 100%);
+  --shadow-color-text--projects--00: 1px 1px 1px rgba(0, 184, 148, 0.3),
+    2px 2px 2px rgba(0, 185, 155, 0.1);
+  --shadow-color-text--projects--01: 1px 1px 1px rgba(255, 105, 97, 0.25),
+    2px 2px 2px rgba(255, 150, 80, 0.15);
 
---shadow-color-text--projects--00: 1px 1px 1px rgba(0, 184, 148, 0.3), 2px 2px 2px rgba(0, 185, 155, 0.1); 
---shadow-color-text--projects--01: 1px 1px 1px rgba(255, 105, 97, 0.25), 2px 2px 2px rgba(255, 150, 80, 0.15);
+  --color-card-title-projects--00: var(--color-jade);
+  --text-shadow-card-projects-00: var(--text-shadow-black);
 
+  --color-projects-border-exterior-00: var(--color-jade);
+  --color-projects-border-exterior-00: hsl(156, 89%, 21%);
+  --color-projects-border-interior-00: var(--color-jade);
+  --color-projects-border-interior-00: hsl(156, 89%, 21%);
 
---color-card-title-projects--00 : var(--color-jade);
---text-shadow-card-projects-00 : var(--text-shadow-black);
+  --color-projects-border-00: var(--color-jade);
+  --color-projects-border-01: var(--color-red);
 
---color-projects-border-exterior-00: var(--color-jade);
---color-projects-border-exterior-00: hsl(156, 89%, 21%);
---color-projects-border-interior-00: var(--color-jade);
---color-projects-border-interior-00: hsl(156, 89%, 21%);
+  --scroll-color-00: hsl(156, 89%, 21%, 0.5);
+  --scroll-color-01: rgba(255, 105, 97, 0.25);
+  --scroll-color-02: hsl(32, 96%, 57%, 0.6);
 
+  --color-projects-card-shadow-00: #034d3e;
+  --color-projects-card-shadow-01: #ff6b6bb7;
 
---color-projects-border-00: var(--color-jade);
---color-projects-border-01: var(--color-red);
-
-
---scroll-color-00: hsl(156, 89%, 21%, 0.5);
---scroll-color-01:  rgba(255, 105, 97, 0.25);
---scroll-color-02:  hsl(32, 96%, 57%, 0.6);
-
---color-projects-card-shadow-00: #034d3e;
---color-projects-card-shadow-01:#ff6b6bb7;
-
---color-gold-soft: #d4af37;
-
+  --color-gold-soft: #d4af37;
 
   /* ─── */
   /* ─── Navbar ───────────────────────── */
@@ -175,46 +189,55 @@
   --color-border-01: var(--color-red);
 
   /* --bg-navbar-00: transparent; */
-  --bg-navbar-00: var(--color-bg-alt-01);
-  --bg-navbar-hover-00: var(--color-bg-alt-01);
+  --bg-navbar-00: hsla(0, 0%, 12%, 0.6);
+  --bg-navbar-hover-00: hsla(0, 0%, 12%, 0.9);
 
   --color-border-navbar-00: var(--color-border-00);
 
   --color-navbar-underline-00: white;
-  --color-navbar-underline-active: white;
+  --color-navbar-underline-active: var(--color-gold-soft);
 
-  --color-navbar-num-00: white;
-  
-  /* --color-navbar-num-shadow: ; */
-  --color-navbar-text-00:white;
-  /* --color-navbar-text-shadow:; */
+  --color-navbar-num-00: var(--color-gold-soft);
+  --color-navbar-num-00: var(--color-orange);
 
-  --color-navbar-text-active:hsl(0, 100%, 50%);
-  
-  
-  --shadow-color: 248deg 88% 57%;
+  --color-navbar-num-shadow: var(--text-shadow-black);
+  --color-navbar-text-00: var(--color-text-01);
+  --color-navbar-text-shadow: var(--text-shadow-black);
+
+  --color-navbar-text-active: var(--color-gris);
+
   --shadow-color: 46 65% 52%;
-  
   --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
     0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
-    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
-    5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
-
-
+    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36);
 
   --color-menu-burger: var(--color-jade);
+
+  /* ─── About ──────────────────────── */
+  --color-text-title-about--01: linear-gradient(
+    120deg,
+    #d4af37 0%,
+    #fb9728 100%
+  );
+  --shadow-color-text--about--01: 1px 1px 1px rgba(0, 184, 148, 0.3),
+    2px 2px 2px rgba(200, 200, 200, 0.15);
+
   /* ─── Swicher ──────────────────────── */
- 
 
   --swicher-01: linear-gradient(135deg, #e6c200 0%, #d4af37 100%);
   --swicher-02: linear-gradient(135deg, #ff6b6b 0%, #d4af37 100%);
   --swicher-03: radial-gradient(circle at center, #00b894 25%, #d4af37 100%);
   --swicher-04: linear-gradient(135deg, #fb9728 0%, #f8b050 100%);
-  --swicher-04: linear-gradient(180deg, hsl(169, 77%, 73%) 5%, hsl(156, 89%, 21%) 100%);
+  --swicher-05: linear-gradient(
+    180deg,
+    hsl(169, 77%, 73%) 5%,
+    hsl(156, 89%, 21%) 100%
+  );
 
-  --bg-swicher-00: red;
-  --bg-swicher-01: var(--swicher-01);
+  --bg-swicher-00: var(--color-bg);
   --bg-switcher-hover: var(--color-bg-alt-01);
+
+  --bg-swicher-btn: var(--swicher-04);
 }
 
 /* ════════════════════════════════════════
