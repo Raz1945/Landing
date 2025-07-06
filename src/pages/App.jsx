@@ -4,7 +4,7 @@ import i18n from '../i18n/i18n';
 
 import { LanguageSwitcher } from "../components/LanguageSwitcher";
 import { Navbar } from "../components/Navbar/Nav";
-import { Wrapper } from "../components/others/wrapper"
+import { Wrapper } from "../components/others/Wrapper"
 import { Hero } from "../components/Hero/Hero";
 import { Services } from "../components/Services/Services";
 import { Projects } from "../components/Projects/Projects";
