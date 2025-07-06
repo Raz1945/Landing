@@ -16,7 +16,7 @@ export const App = () => {
     <I18nextProvider i18n={i18n}>
       <Suspense fallback={<div>Loading...</div>}>
         <LanguageSwitcher/>
-        {/* <Navbar /> */}
+        <Navbar />
         <Wrapper>
           <Hero route='hero' />
           <Services route='services' />

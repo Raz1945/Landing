@@ -8,7 +8,7 @@
   padding: 0.5rem 0.7rem;
   
   border-radius: 9999px;
-  background-color: var(--bg-navbar-01);
+  /* background-color: var(--bg-switcher-00); */
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: 
@@ -21,8 +21,8 @@
 
 /* todo ver colores de fondo  */
 .language-switcher:hover {
-  box-shadow: var(--shadow-elevation-medium);
-  background-color: var(--bg-navbar-02);
+  /* box-shadow: var(--shadow-elevation-medium); */
+  background-color: var(--bg-switcher-hover);
   opacity: 1;
   transition-duration: 0.12s;
 }
