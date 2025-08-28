@@ -101,9 +101,9 @@
         "alt": "Proyecto Audn",
         "title": "Audn",
         "title_description": "Titulo de la tarjeta: ",
-        "description": "Este proyecto, aún en etapa de desarrollo, representa una combinación de tecnologías que incluye un backend construido con Node.js y una base de datos gestionada a través de PostgreSQL. Esta base de datos se conecta de forma remota a un servicio online llamado Neon, un PostgreSQL Serverless. Además, el frontend de la aplicación ha sido diseñado usando React. En esencia, es una aplicación de música con funcionalidades similares a las que se encuentran en plataformas como Spotify.",
+        "description": "Este proyecto, aún en etapa de desarrollo, representa una combinación de tecnologías que incluye un backend construido con Node.js y una base de datos gestionada a través de PostgreSQL. Además, el frontend de la aplicación ha sido diseñado usando React. En esencia, es una aplicación de música con funcionalidades similares a las que se encuentran en plataformas como Spotify.",
         "linkTo": "#",
-        "linkToCode": "https://github.com/Raz1945/Auden-Backend"
+        "linkToCode": "https://github.com/Raz1945/Audn"
       },
       {
         "imgKey": "project_7",

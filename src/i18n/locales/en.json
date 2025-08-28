@@ -101,9 +101,9 @@
         "alt": "Audn Project",
         "title": "Audn",
         "title_description": "Title of the card: ",
-        "description": "A music platform (like Spotify) under development. Backend: Node.js with PostgreSQL (hosted on Neon). Frontend: React.",
+        "description": "A music platform (like Spotify) under development. Backend: Node.js with PostgreSQL . Frontend: React.",
         "linkTo": "#",
-        "linkToCode": "https://github.com/Raz1945/Auden-Backend"
+        "linkToCode": "https://github.com/Raz1945/Audn"
       },
       {
         "imgKey": "project_7",

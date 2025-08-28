@@ -20,7 +20,6 @@ export const App = () => {
         <Wrapper>
           <Hero route='hero' />
           <Services route='services' />
-
           <Projects route='projects' />
           <About route='about_me' />
         </Wrapper>
